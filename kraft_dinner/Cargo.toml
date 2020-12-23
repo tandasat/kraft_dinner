@@ -1,0 +1,31 @@
+[package]
+name = "kraft_dinner"
+version = "0.1.0"
+authors = ["Satoshi Tanda <tanda.sat@gmail.com>"]
+edition = "2018"
+build = "build.rs"
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+utf16_lit = "1.0.1"
+
+[dependencies.ntapi]
+version = "0.3.6"
+default-features = false
+features = [
+    "impl-default",
+    "kernel",
+]
+
+[dependencies.winapi]
+version = "0.3.9"
+features = [
+    "winnt",
+]
+
+[build-dependencies]
+winreg = "0.7.0"
+failure = "0.1.8"
