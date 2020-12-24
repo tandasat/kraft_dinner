@@ -21,7 +21,7 @@ Debugging can be done as normally do with C/C++ based drivers.
 
 ## Acknowledgement
 
-This driver is based on [kernel-driver-with-rust](https://github.com/not-matthias/kernel-driver-with-rust) by @not-matthias. Those are are interested in writing windows drivers in Rust should read his/her posts.
+This driver is based on [kernel-driver-with-rust](https://github.com/not-matthias/kernel-driver-with-rust) by @not-matthias. Those who are interested in writing windows drivers in Rust should read his/her posts.
 
 ### Changes
 
