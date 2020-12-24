@@ -1,6 +1,8 @@
 # kraft_dinner
 An experimental Windows kernel-mode driver that extracts certain runtime drivers, written in Rust.
 
+For more context, see: https://standa-note.blogspot.com/2020/12/experiment-in-extracting-runtime.html
+
 ## Building
 
 On the system that can already build Windows drivers with Visual Studio and WDK,
